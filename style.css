@@ -1,0 +1,93 @@
+html, body {
+margin: 0px;
+margin: 0px;
+}
+
+* {
+box-sizing: border-box;
+font-family: 'Permanent Marker', cursive;
+color: #39FF14;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.header img {
+  height: 60vh;
+}
+
+body {
+  background-color: black;
+}
+
+.flexParent {
+  display: flex;
+}
+
+.flexParent div {
+  background-color: blue;
+  margin: 16px;
+  padding: 16px;
+  justify-content: center;
+}
+
+.flexParent > div {
+  background-color: #fff;
+}
+
+.flexParent div > p {
+  /* text-decoration: underline; */
+  color: blue;
+}
+
+.flexParent div p:first-child {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+p + p {
+  margin-top: 32px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  color: black;
+  width: 15vw;
+}
+
+h1 + p {
+color: yellow;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: #ff0072;
+}
+
+a:hover {
+  text-decoration: underline overline wavy #39FF14;
+}
+
+h1{
+  font-size: 15vw;
+  text-align: center;
+  margin: 0;
+}
+
+p {
+}
+
+.greenContainer{
+  background-color: #39FF14;
+  color: black;
+}
+
+.flexParent img {
+  width: 25vw;
+}
+
+.biggestFan {
+  display: block;
+}
